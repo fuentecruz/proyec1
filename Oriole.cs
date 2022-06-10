@@ -2,6 +2,7 @@
 console.writeline("Bienvenido");
 string usuario;
 int contraseña;
+string Nombre;
 console.writeline("usuario");
 usuario=string.parse(console.readline());
 console.writeline("contraseña");
@@ -10,3 +11,8 @@ if (contraseña==00);
 console.writeline("Bienvenido");
 else 
 console.writeline("contraseña incorrecta");
+console.writeline("crear cuenta");
+console.writeline("Nombre");
+Nombre=string.parse(console.readline());
+console.writeline("contraseña");
+contraseña=int.parse(console.readline());
