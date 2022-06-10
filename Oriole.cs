@@ -19,6 +19,6 @@ Nombre=string.parse(console.readline());
 console.writeline("contraseña");
 contraseña=int.parse(console.readline());
 console.writeline("confirmar contraseña");
-confirmarcontraseña=int.parse(console.readline);
+confirmarcontraseña=int.parse(console.readline());
 console.writeline("Bienvenido");
 console.readkey
