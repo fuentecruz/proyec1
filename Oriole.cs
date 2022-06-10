@@ -3,6 +3,8 @@ console.writeline("Bienvenido");
 string usuario;
 int contraseña;
 string Nombre;
+int confirmarcontraseña;
+
 console.writeline("usuario");
 usuario=string.parse(console.readline());
 console.writeline("contraseña");
@@ -16,3 +18,7 @@ console.writeline("Nombre");
 Nombre=string.parse(console.readline());
 console.writeline("contraseña");
 contraseña=int.parse(console.readline());
+console.writeline("confirmar contraseña");
+confirmarcontraseña=int.parse(console.readline);
+console.writeline("Bienvenido");
+console.readkey
